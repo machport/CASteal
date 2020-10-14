@@ -9,5 +9,8 @@ int main() {
 a minified version of the proof of concept is shown above.
 how this works:
 Calamari (for mac) account cridentials are stored for reuse by the ui and dylib to autheticate your user. 
+
 their paths are /Users/Shared/Calamari/GY for username and /Users/Shared/Calamari/NGV for password. 
+
 however they are only stored in Base64 encoding meaning they can be easily decoded and sent anywhere by a proccess. 
+
